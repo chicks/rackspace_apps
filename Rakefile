@@ -10,7 +10,7 @@ begin
     gem.email = "carl.hicks@gmail.com"
     gem.homepage = "http://github.com/chicks/rackspace-apps"
     gem.authors = ["Carl Hicks"]
-    gem.dependency = "json", ">= 0"
+    gem.add_dependency "json", ">= 0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
